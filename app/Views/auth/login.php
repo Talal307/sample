@@ -11,7 +11,7 @@
     </style>
 </head>
 <body>
-    <h2>Sign In</h2>
+    <h2>Sign In now</h2>
 
     <?php if (session()->getFlashdata('error')): ?>
         <div class="error"><p><?= esc(session()->getFlashdata('error')) ?></p></div>
